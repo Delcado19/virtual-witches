@@ -27,7 +27,7 @@
 Installation
 
 ```sh
-hydectl theme import --name "Virtual-Witches" --url "https://github.com/luqvic/Virtual-Witches"
+hydectl theme import --name "Virtual-Witches" --url "https://github.com/Delcado19/virtual-witches"
 ```
 
 or

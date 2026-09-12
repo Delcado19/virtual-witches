@@ -2,6 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
 $GTK_THEME=Catppuccin-Dark-Frappe
 $CURSOR_THEME=catppuccin-frappe-dark-cursors
+$COLOR_SCHEME=prefer-light
 
 general {
     gaps_in = 2
@@ -15,7 +16,7 @@ general {
 
 group {
     col.border_active = rgba(DC7BC1ff) rgba(EB9592ff) 45deg
-    col.border_inactive = rgba(C49AE5ffcc) rgba(C89DE6ffcc) 45deg
+    col.border_inactive = rgba(C49AE5cc) rgba(C89DE6cc) 45deg
     col.border_locked_active = rgba(FFFFFFff) rgba(FFFFFFff) 45deg
     col.border_locked_inactive = rgba(FFFFFFcc) rgba(FFFFFFcc) 45deg
 }
@@ -27,7 +28,7 @@ decoration {
 
     shadow {
     enabled = true
-    ignore_window = true
+    # Hyprland 0.55+ always uses the former ignore_window=true behavior.
     render_power = 2
     color = 0x80ffffff
     range = 14
